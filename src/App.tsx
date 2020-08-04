@@ -1,12 +1,11 @@
 import React from 'react';
 
-import Ladding from './pages/Ladding'
-
 import './assets/styles/global.css'
+import Routes from './routes';
 
 function App() {
   return (
-    <Ladding/>
+    <Routes />
   );
 }
 
